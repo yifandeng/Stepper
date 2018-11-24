@@ -1,6 +1,6 @@
 #include <Stepper.h>
 
-// 这里设置步进电机旋转一圈是多少步 Set the steps to rotate the stepper motor?
+// 这里设置步进电机旋转一圈是多少步 Set the steps to rotate the stepper motor
 #define STEPS 200
 
 Stepper stepper(STEPS, 8, 9, 10, 11);
